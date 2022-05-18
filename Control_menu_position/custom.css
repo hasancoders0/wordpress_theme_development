@@ -1,0 +1,24 @@
+/*===========================================
+  Menu Position
+===========================================*/
+#header_area.left_menu .col-sm-2 {
+    order: 2;
+  }
+  #header_area.left_menu .col-sm-9 {
+    order: 1;
+  }
+  #header_area.left_menu .col-sm-9 ul {
+    text-align: left;
+  }
+  
+  #header_area.center_menu .col-sm-2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+  } 
+  #header_area.center_menu .col-sm-9 {
+    width: 100%;
+  }
+  #header_area.center_menu .col-sm-9 ul {
+    text-align: center;
+  }
