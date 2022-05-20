@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
-                <a href=""><img src="<?php echo get_theme_mod('sundarban_theme_logo'); 
+                <a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_mod('sundarban_theme_logo'); 
                 ?>" alt=""> </a>
             </div>
             <div class="col-sm-9">
