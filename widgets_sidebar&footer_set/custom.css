@@ -1,0 +1,101 @@
+/* start left sideber css */
+/*===========================================
+  Sibebar Area Styling
+===========================================*/
+.child_sidebar {
+  margin-bottom: 20px;
+}
+.child_sidebar h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+  line-height: 1em;
+  border-left: 5px solid #ea1a70;
+  padding-left: 10px;
+}
+.child_sidebar input[type="search"] {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.child_sidebar input[type="search"]:hover {
+
+  border: 1px solid #ea1a70;
+
+}
+.child_sidebar button[type="submit"] {
+  background: #ea1a70;
+  border: 1px solid #ea1a70;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  transition: 0.5s;
+}
+.child_sidebar button[type="submit"]:hover {
+  background: #262626;
+  border: 1px solid #262626;
+}
+.child_sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.child_sidebar ul li {
+  display: block;
+  margin-bottom: 5px;
+}
+.child_sidebar ul ul {
+  display: none;
+}
+.child_sidebar ul li a {
+  display: inline-block;
+  color: #262626;
+  text-decoration: none;
+}
+
+
+.child_sidebar ul li a:hover {
+  color: #ea1a70;
+}
+.child_sidebar a.tag-cloud-link {
+  color: #fff;
+  background: #262626;
+  display: inline-block;
+  font-size: 12px !important;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.child_sidebar a.tag-cloud-link:hover {
+  background: #ea1a70;
+}
+/* end left sideber css */
+
+/* start footer area */
+#footer_section h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+  line-height: 1em;
+  border-left: 5px solid #ea1a70;
+  padding-left: 10px;
+}
+
+#footer_section {
+  background: #262626;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 1px;
+}
+#footer_section .child_sidebar ul li a{
+  color:#fff;
+
+}
+#footer_section .child_sidebar ul li a:hover{
+  color:#ea1a70;
+  
+}
